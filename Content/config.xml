@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpacewarMonoGameParameters xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <item key="PLANETOID_SIZE">
+    <anyType xsi:type="xsd:float">15</anyType>
+  </item>
+  <item key="PLANETOID_MARGIN">
+    <anyType xsi:type="xsd:float">0.8</anyType>
+  </item>
+  <item key="DEGREES_PER_SECOND">
+    <anyType xsi:type="xsd:float">180</anyType>
+  </item>
+  <item key="IMPULSE_PER_SECOND">
+    <anyType xsi:type="xsd:float">27</anyType>
+  </item>
+  <item key="ENERGY_MAX">
+    <anyType xsi:type="xsd:float">100</anyType>
+  </item>
+  <item key="LIFE_MAX">
+    <anyType xsi:type="xsd:float">100</anyType>
+  </item>
+  <item key="LIFE_PER_SECOND_MOON_COLLISION">
+    <anyType xsi:type="xsd:float">-120</anyType>
+  </item>
+  <item key="LIFE_PER_BULLET">
+    <anyType xsi:type="xsd:float">-3</anyType>
+  </item>
+  <item key="LIFE_PER_BULLETHEAT">
+    <anyType xsi:type="xsd:float">-15</anyType>
+  </item>
+  <item key="BULLET_LIFESPAN">
+    <anyType xsi:type="xsd:float">1.66</anyType>
+  </item>
+  <item key="BULLET_VELOCITY">
+    <anyType xsi:type="xsd:float">50</anyType>
+  </item>
+  <item key="BONUS_LIFESPAN">
+    <anyType xsi:type="xsd:float">8</anyType>
+  </item>
+  <item key="BONUS_FADESPAN">
+    <anyType xsi:type="xsd:float">0.5</anyType>
+  </item>
+  <item key="BONUS_MAX_ROTATION_DELTA">
+    <anyType xsi:type="xsd:float">360</anyType>
+  </item>
+  <item key="BONUS_MAX_VELOCITY">
+    <anyType xsi:type="xsd:float">20</anyType>
+  </item>
+  <item key="BONUS_FREQUENCY">
+    <anyType xsi:type="xsd:float">2</anyType>
+  </item>
+  <item key="PLANETOID_POSITION">
+    <anyType xsi:type="Vector2Xml" X="80" Y="45" />
+  </item>
+  <item key="SCREEN_SIZE">
+    <anyType xsi:type="Vector2Xml" X="1920" Y="1080" />
+  </item>
+  <item key="ARENA_SIZE">
+    <anyType xsi:type="Vector2Xml" X="160" Y="90" />
+  </item>
+  <item key="BONUS_SIZE">
+    <anyType xsi:type="Vector2Xml" X="2.5" Y="2.5" />
+  </item>
+  <item key="SHIP_SIZE">
+    <anyType xsi:type="Vector2Xml" X="5.5" Y="5.5" />
+  </item>
+  <item key="BULLET_SIZE">
+    <anyType xsi:type="Vector2Xml" X="1" Y="1.33" />
+  </item>
+  <item key="SIZE_DAMAGE">
+    <anyType xsi:type="Vector2Xml" X="1.5" Y="1.5" />
+  </item>
+  <item key="SIZE_TRAIL">
+    <anyType xsi:type="Vector2Xml" X="2" Y="2" />
+  </item>
+  <item key="SIZE_BULLETHEAT">
+    <anyType xsi:type="Vector2Xml" X="2.91666675" Y="2.91666675" />
+  </item>
+  <item key="SIZE_BOMB">
+    <anyType xsi:type="Vector2Xml" X="3.41666675" Y="3.41666675" />
+  </item>
+  <item key="SIZE_BOMBSHRAPNEL">
+    <anyType xsi:type="Vector2Xml" X="2.5" Y="2.5" />
+  </item>
+  <item key="SIZE_PLASMA">
+    <anyType xsi:type="Vector2Xml" X="10.666667" Y="10.666667" />
+  </item>
+
+  <item key="FULLSCREEN">
+    <anyType xsi:type="xsd:boolean">true</anyType>
+  </item>
+
+
+  <item key="PLAYER_COLORS">
+    <anyType xsi:type="ArrayOfColorXml">
+      <ColorXml R="254" G="60" B="60" A="253" />
+      <ColorXml R="60" G="60" B="252" A="251" />
+    </anyType>
+  </item>
+
+  <item key="BONUS_PROBABILITIES">
+    <anyType xsi:type="ArrayOfBonusProbability">
+      <BonusProbability bonusType="ENERGY" bonusFrequency="1" bonusNbAmmo="1" />
+      <BonusProbability bonusType="LIFE" bonusFrequency="1" bonusNbAmmo="1" />
+      <BonusProbability bonusType="TRIPE_BULLET" bonusFrequency="1" bonusNbAmmo="20" />
+      <BonusProbability bonusType="HEAT_SEEKING" bonusFrequency="99" bonusNbAmmo="5" />
+      <BonusProbability bonusType="BOMB" bonusFrequency="1" bonusNbAmmo="1" />
+      <BonusProbability bonusType="SHIELD" bonusFrequency="1" bonusNbAmmo="1" />
+      <BonusProbability bonusType="PLASMA" bonusFrequency="1" bonusNbAmmo="6" />
+    </anyType>
+  </item>
+
+  <item key="KEY_MOVEMENT_LEFT">
+    <anyType xsi:type="ArrayOfKeys">
+      <Keys>Left</Keys>
+      <Keys>D</Keys>
+    </anyType>
+  </item>
+  <item key="KEY_MOVEMENT_RIGHT">
+    <anyType xsi:type="ArrayOfKeys">
+      <Keys>Right</Keys>
+      <Keys>G</Keys>
+    </anyType>
+  </item>
+  <item key="KEY_MOVEMENT_ENGINE">
+    <anyType xsi:type="ArrayOfKeys">
+      <Keys>Up</Keys>
+      <Keys>R</Keys>
+    </anyType>
+  </item>
+  <item key="KEY_ACTION_MAIN">
+    <anyType xsi:type="ArrayOfKeys">
+      <Keys>J</Keys>
+      <Keys>U</Keys>
+    </anyType>
+  </item>
+  <item key="KEY_ACTION_SECONDARY">
+    <anyType xsi:type="ArrayOfKeys">
+      <Keys>K</Keys>
+      <Keys>I</Keys>
+    </anyType>
+  </item>
+  <item key="KEY_ACTION_CHANGE_POSITIVE">
+    <anyType xsi:type="ArrayOfKeys">
+      <Keys>L</Keys>
+      <Keys>F</Keys>
+    </anyType>
+  </item>
+  <item key="KEY_ACTION_CHANGE_NEGATIVE">
+    <anyType xsi:type="ArrayOfKeys">
+      <Keys>Down</Keys>
+      <Keys>V</Keys>
+    </anyType>
+  </item>
+  <item key="KEY_DEBUG">
+    <anyType xsi:type="ArrayOfKeys">
+      <Keys>P</Keys>
+      <Keys>T</Keys>
+    </anyType>
+  </item>
+
+
+  <item key="STATUS_BAR_SIZE">
+    <anyType xsi:type="Vector2Xml" X="250" Y="25" />
+  </item>
+  <item key="ENERGY_PER_SECOND_ENGINE">
+    <anyType xsi:type="xsd:float">-11</anyType>
+  </item>
+  <item key="ENERGY_PER_BULLET">
+    <anyType xsi:type="xsd:float">-0.7</anyType>
+  </item>
+  <item key="ENERGY_PER_TBULLET">
+    <anyType xsi:type="xsd:float">-1.4</anyType>
+  </item>
+  <item key="ENERGY_PER_SECOND_REGEN">
+    <anyType xsi:type="xsd:float">6.25</anyType>
+  </item>
+  <item key="ENERGY_PER_BULLETHEAT">
+    <anyType xsi:type="xsd:float">-5</anyType>
+  </item>
+  <item key="ENERGY_PER_BOMB">
+    <anyType xsi:type="xsd:float">20</anyType>
+  </item>
+  <item key="ENERGY_PER_PLASMA">
+    <anyType xsi:type="xsd:float">10</anyType>
+  </item>
+  <item key="ENERGY_PER_SHIELD">
+    <anyType xsi:type="xsd:float">30</anyType>
+  </item>
+  <item key="DEPTH_BULLET">
+    <anyType xsi:type="xsd:float">0.4</anyType>
+  </item>
+  <item key="DEPTH_HUD">
+    <anyType xsi:type="xsd:float">0.1</anyType>
+  </item>
+  <item key="DEPTH_PLAYERSHIP">
+    <anyType xsi:type="xsd:float">0.5</anyType>
+  </item>
+  <item key="DEPTH_PLANETOID">
+    <anyType xsi:type="xsd:float">0.2</anyType>
+  </item>
+  <item key="DEPTH_BONUS">
+    <anyType xsi:type="xsd:float">0.4</anyType>
+  </item>
+  <item key="DEPTH_BACKGROUND">
+    <anyType xsi:type="xsd:float">0</anyType>
+  </item>
+  <item key="DEPTH_REGEN">
+    <anyType xsi:type="xsd:float">0.6</anyType>
+  </item>
+  <item key="DEPTH_DEFAULT">
+    <anyType xsi:type="xsd:float">0.4</anyType>
+  </item>
+  <item key="EREGEN_TIME">
+    <anyType xsi:type="xsd:float">8</anyType>
+  </item>
+  <item key="EREGEN_ENERGY_PER_SECOND">
+    <anyType xsi:type="xsd:float">15</anyType>
+  </item>
+  <item key="LREGEN_TIME">
+    <anyType xsi:type="xsd:float">8</anyType>
+  </item>
+  <item key="LREGEN_LIFE_PER_SECOND">
+    <anyType xsi:type="xsd:float">15</anyType>
+  </item>
+  <item key="BULLETHEAT_TURN_PER_SECOND">
+    <anyType xsi:type="xsd:float">70</anyType>
+  </item>
+  <item key="BULLETHEAT_IMPULSE">
+    <anyType xsi:type="xsd:float">25</anyType>
+  </item>
+  <item key="BULLETHEAT_LIFESPAN">
+    <anyType xsi:type="xsd:float">15</anyType>
+  </item>
+  <item key="BOMB_LIFESPAN">
+    <anyType xsi:type="xsd:float">1.5</anyType>
+  </item>
+  <item key="BOMB_VELOCITY">
+    <anyType xsi:type="xsd:float">25</anyType>
+  </item>
+  <item key="BOMB_SHRAPNEL_DAMPING">
+    <anyType xsi:type="xsd:float">0.9</anyType>
+  </item>
+  <item key="BOMB_SHRAPNEL_LIFESPAN">
+    <anyType xsi:type="xsd:float">1.5</anyType>
+  </item>
+  <item key="BOMB_SHRAPNEL_LIFESPAN_VARIABLE">
+    <anyType xsi:type="xsd:float">1.5</anyType>
+  </item>
+  <item key="BOMB_SHRAPNEL_FADESPAN">
+    <anyType xsi:type="xsd:float">0.5</anyType>
+  </item>
+  <item key="BOMB_SHRAPNEL_DAMAGE">
+    <anyType xsi:type="xsd:float">-30</anyType>
+  </item>
+  <item key="BOMB_SHRAPNEL_GRACE_PERIOD">
+    <anyType xsi:type="xsd:float">0.1</anyType>
+  </item>
+  <item key="PLASMA_VELOCITY">
+    <anyType xsi:type="xsd:float">30</anyType>
+  </item>
+  <item key="PLASMA_LIFESPAN">
+    <anyType xsi:type="xsd:float">1</anyType>
+  </item>
+  <item key="SHIELD_DURATION">
+    <anyType xsi:type="xsd:float">6</anyType>
+  </item>
+  <item key="VELOCITY_DAMAGE">
+    <anyType xsi:type="xsd:float">6</anyType>
+  </item>
+  <item key="VELOCITY_REGEN">
+    <anyType xsi:type="xsd:float">6</anyType>
+  </item>
+  <item key="VELOCITY_BOMBSHRAPNEL_MIN">
+    <anyType xsi:type="xsd:float">15</anyType>
+  </item>
+  <item key="VELOCITY_BOMBSHRAPNEL_MAX">
+    <anyType xsi:type="xsd:float">40</anyType>
+  </item>
+  <item key="FREQUENCY_BULLET">
+    <anyType xsi:type="xsd:float">0.083</anyType>
+  </item>
+  <item key="FREQUENCY_REGEN">
+    <anyType xsi:type="xsd:float">0.5</anyType>
+  </item>
+  <item key="FREQUENCY_HEATBULLET">
+    <anyType xsi:type="xsd:float">0.4</anyType>
+  </item>
+  <item key="FREQUENCY_BOMB">
+    <anyType xsi:type="xsd:float">1</anyType>
+  </item>
+  <item key="FREQUENCY_PLASMA">
+    <anyType xsi:type="xsd:float">0.2</anyType>
+  </item>
+
+
+  <item key="CHANNEL_BULLET">
+    <anyType xsi:type="xsd:int">0</anyType>
+  </item>
+  <item key="VOLUME_BULLET">
+    <anyType xsi:type="xsd:int">64</anyType>
+  </item>
+  <item key="CHANNEL_BULLET_HIT">
+    <anyType xsi:type="xsd:int">1</anyType>
+  </item>
+  <item key="VOLUME_BULLET_HIT">
+    <anyType xsi:type="xsd:int">32</anyType>
+  </item>
+  <item key="CHANNEL_EXPLOSION">
+    <anyType xsi:type="xsd:int">2</anyType>
+  </item>
+  <item key="VOLUME_EXPLOSION">
+    <anyType xsi:type="xsd:int">100</anyType>
+  </item>
+  <item key="BOMB_NB_SHRAPNEL">
+    <anyType xsi:type="xsd:int">50</anyType>
+  </item>
+
+
+  <item key="FONT_SCORES">
+    <anyType xsi:type="xsd:string">kenvector</anyType>
+  </item>
+  <item key="FONT_AMMO">
+    <anyType xsi:type="xsd:string">kenvector</anyType>
+  </item>
+  <item key="SOUND_BULLET">
+    <anyType xsi:type="xsd:string">bullet</anyType>
+  </item>
+  <item key="SOUND_BULLET_HIT">
+    <anyType xsi:type="xsd:string">bullet_impact</anyType>
+  </item>
+  <item key="SOUND_EXPLOSION">
+    <anyType xsi:type="xsd:string">explosion</anyType>
+  </item>
+
+
+
+  <item key="INVERTED_BARS">
+    <anyType xsi:type="ArrayOfBoolean">
+      <boolean>false</boolean>
+      <boolean>true</boolean>
+    </anyType>
+  </item>
+  <item key="PLAYER_NAMES">
+    <anyType xsi:type="ArrayOfString">
+      <string>Red</string>
+      <string>Blue</string>
+    </anyType>
+  </item>
+  <item key="PLAYER_STARTING_POSITIONS">
+    <anyType xsi:type="ArrayOfVector2Xml">
+      <Vector2Xml X="5" Y="10" />
+      <Vector2Xml X="155" Y="80" />
+    </anyType>
+  </item>
+  <item key="PLAYER_STARTING_ROTATIONS">
+    <anyType xsi:type="ArrayOfFloat">
+      <float>135</float>
+      <float>315</float>
+    </anyType>
+  </item>
+  <item key="RANDOM_STARTING_POSITIONS">
+    <anyType xsi:type="xsd:boolean">false</anyType>
+  </item>
+
+
+  <item key="LIFE_BAR_POSITIONS">
+    <anyType xsi:type="ArrayOfVector2Xml">
+      <Vector2Xml X="20" Y="20" />
+      <Vector2Xml X="1626" Y="1005" />
+    </anyType>
+  </item>
+  <item key="ENERGY_BAR_POSITIONS">
+    <anyType xsi:type="ArrayOfVector2Xml">
+      <Vector2Xml X="20" Y="50" />
+      <Vector2Xml X="1626" Y="1035" />
+    </anyType>
+  </item>
+  <item key="AMMOHUD_POSITIONS">
+    <anyType xsi:type="ArrayOfVector2Xml">
+      <Vector2Xml X="314" Y="23" />
+      <Vector2Xml X="1606" Y="1007" />
+    </anyType>
+  </item>
+
+
+</SpacewarMonoGameParameters>

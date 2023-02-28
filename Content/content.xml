@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentHolder xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpriteInfos>
+    <SpriteInfo name="playership" 				x="66" 		y="446" 	width="66" 		height="66" 	texture="Content/textures.png" />
+    <SpriteInfo name="playership_color" 		x="0" 		y="446" 	width="66" 		height="66" 	texture="Content/textures.png" />
+    <SpriteInfo name="shield" 					x="0" 		y="196" 	width="66" 		height="66" 	texture="Content/textures.png" />
+    <SpriteInfo name="heatbullet" 				x="450" 	y="477" 	width="35" 		height="35" 	texture="Content/textures.png" />
+    <SpriteInfo name="heatbullet_color" 		x="415" 	y="477" 	width="35" 		height="35" 	texture="Content/textures.png" />
+    <SpriteInfo name="bomb" 					x="107" 	y="221" 	width="41" 		height="41" 	texture="Content/textures.png" />
+    <SpriteInfo name="bomb_color" 				x="66" 		y="221" 	width="41" 		height="41" 	texture="Content/textures.png" />
+    <SpriteInfo name="bomb_shrapnel_0" 			x="148"		y="232" 	width="30" 		height="30" 	texture="Content/textures.png" />
+    <SpriteInfo name="bomb_shrapnel_1" 			x="178" 	y="232" 	width="30" 		height="30" 	texture="Content/textures.png" />
+    <SpriteInfo name="bomb_shrapnel_2" 			x="208"		y="232" 	width="30" 		height="30" 	texture="Content/textures.png" />
+    <SpriteInfo name="bomb_shrapnel_3" 			x="238"		y="232" 	width="30" 		height="30" 	texture="Content/textures.png" />
+    <SpriteInfo name="particle" 				x="240" 	y="502" 	width="10" 		height="10" 	texture="Content/textures.png" />
+    <SpriteInfo name="particle_big" 			x="255" 	y="462" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="life_left" 				x="135" 	y="460" 	width="12" 		height="25" 	texture="Content/textures.png" />
+    <SpriteInfo name="life_center" 				x="147" 	y="460" 	width="1" 		height="25" 	texture="Content/textures.png" />
+    <SpriteInfo name="life_right" 				x="223" 	y="460" 	width="12" 		height="25" 	texture="Content/textures.png" />
+    <SpriteInfo name="energy_left" 				x="135" 	y="487" 	width="12" 		height="25" 	texture="Content/textures.png" />
+    <SpriteInfo name="energy_center" 			x="147" 	y="487" 	width="1" 		height="25" 	texture="Content/textures.png" />
+    <SpriteInfo name="energy_right" 			x="223" 	y="487" 	width="12" 		height="25" 	texture="Content/textures.png" />
+    <SpriteInfo name="planetoid" 				x="0" 		y="262" 	width="180" 	height="180" 	texture="Content/textures.png" />
+    <SpriteInfo name="bullet" 					x="310" 	y="496" 	width="12" 		height="16" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus" 					x="323" 	y="482" 	width="30" 		height="30" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_life" 				x="230" 	y="352" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_life_contour" 		x="230" 	y="407" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_energy" 			x="180" 	y="352" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_energy_contour" 	x="180" 	y="407" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_tbullet" 			x="280" 	y="352" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_tbullet_contour" 	x="280" 	y="407" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_hseeking" 			x="330" 	y="352" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_hseeking_contour" 	x="330" 	y="407" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_bomb" 				x="380" 	y="352" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_bomb_contour" 		x="380" 	y="407" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_plasma" 			x="430" 	y="352" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_plasma_contour" 	x="430" 	y="407" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_shield" 			x="430" 	y="252" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_shield_contour" 	x="430" 	y="302" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_laser" 				x="380" 	y="252" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="bonus_laser_contour" 		x="380" 	y="302" 	width="50" 		height="50" 	texture="Content/textures.png" />
+    <SpriteInfo name="eregen"				 	x="355" 	y="477" 	width="22" 		height="35" 	texture="Content/textures.png" />
+    <SpriteInfo name="lregen" 					x="380" 	y="477" 	width="35" 		height="35" 	texture="Content/textures.png" />
+    <SpriteInfo name="plasmaball" 				x="0" 		y="121" 	width="75" 		height="75" 	texture="Content/textures.png" />
+    <SpriteInfo name="background" 				x="0" 		y="0" 		width="1920" 	height="1080" 	texture="Content/bg.png" />
+  </SpriteInfos>
+  <FontInfos>
+	  <string>kenvector</string>
+  </FontInfos>
+  <SoundInfos>
+    <SoundInfo 	name="bullet"		isMusic="false" 	soundFile="Content/bullet.ogg" />
+    <SoundInfo 	name="bullet_impact"		isMusic="false" 	soundFile="Content/bullet_impact.ogg" />
+    <SoundInfo 	name="explosion"		isMusic="false" 	soundFile="Content/explosion.ogg" />
+  </SoundInfos>
+  <ParticleInfos>
+    <ParticuleStateList name="scores">
+      <ParticuleStates>
+        <ParticuleState targetTime="0" targetSizeRatio="0">
+          <targetColor R="0" G="0" B="0" A="0" />
+        </ParticuleState>
+        <ParticuleState targetTime="0.8" targetSizeRatio="0">
+          <targetColor R="0" G="0" B="0" A="255" />
+        </ParticuleState>
+        <ParticuleState targetTime="4" targetSizeRatio="0">
+          <targetColor R="0" G="0" B="0" A="255" />
+        </ParticuleState>
+        <ParticuleState targetTime="4.8" targetSizeRatio="0">
+          <targetColor R="0" G="0" B="0" A="0" />
+        </ParticuleState>
+      </ParticuleStates>
+    </ParticuleStateList>
+    <ParticuleStateList name="damage">
+      <ParticuleStates>
+        <ParticuleState targetTime="0" targetSizeRatio="0.75">
+          <targetColor R="255" G="255" B="0" A="255" />
+        </ParticuleState>
+        <ParticuleState targetTime="0.25" targetSizeRatio="1.25">
+          <targetColor R="255" G="0" B="0" A="255" />
+        </ParticuleState>
+      </ParticuleStates>
+    </ParticuleStateList>
+    <ParticuleStateList name="damage_long">
+      <ParticuleStates>
+        <ParticuleState targetTime="0" targetSizeRatio="0.75">
+          <targetColor R="255" G="255" B="0" A="255" />
+        </ParticuleState>
+        <ParticuleState targetTime="0.4" targetSizeRatio="1.25">
+          <targetColor R="255" G="0" B="0" A="255" />
+        </ParticuleState>
+        <ParticuleState targetTime="0.8" targetSizeRatio="2">
+          <targetColor R="0" G="0" B="0" A="255" />
+        </ParticuleState>
+      </ParticuleStates>
+    </ParticuleStateList>
+    <ParticuleStateList name="smoke_long">
+      <ParticuleStates>
+        <ParticuleState targetTime="0" targetSizeRatio="0.75">
+          <targetColor R="200" G="200" B="200" A="255" />
+        </ParticuleState>
+        <ParticuleState targetTime="0.8" targetSizeRatio="2">
+          <targetColor R="0" G="0" B="0" A="0" />
+        </ParticuleState>	
+      </ParticuleStates>
+    </ParticuleStateList>
+    <ParticuleStateList name="plasma">
+      <ParticuleStates>
+        <ParticuleState targetTime="0" targetSizeRatio="0.5">
+          <targetColor R="255" G="255" B="255" A="0" />
+        </ParticuleState>
+        <ParticuleState targetTime="0.1" targetSizeRatio="0.5">
+          <targetColor R="255" G="255" B="255" A="200" />
+        </ParticuleState>
+        <ParticuleState targetTime="0.5" targetSizeRatio="1">
+          <targetColor R="255" G="255" B="255" A="200" />
+        </ParticuleState>
+        <ParticuleState targetTime="1" targetSizeRatio="1.5">
+          <targetColor R="255" G="255" B="255" A="0" />
+        </ParticuleState>	
+      </ParticuleStates>
+    </ParticuleStateList>
+    <ParticuleStateList name="regen">
+      <ParticuleStates>
+        <ParticuleState targetTime="0" targetSizeRatio="1">
+          <targetColor R="0" G="255" B="0" A="255" />
+        </ParticuleState>
+        <ParticuleState targetTime="0.5" targetSizeRatio="1">
+          <targetColor R="0" G="255" B="0" A="0" />
+        </ParticuleState>
+      </ParticuleStates>
+    </ParticuleStateList>
+    <ParticuleStateList name="ship_trail">
+      <ParticuleStates>
+        <ParticuleState targetTime="0" targetSizeRatio="1">
+          <targetColor R="0" G="0" B="0" A="255" />
+        </ParticuleState>
+        <ParticuleState targetTime="0.3" targetSizeRatio="0.5">
+          <targetColor R="0	" G="0" B="0" A="0" />
+        </ParticuleState>
+      </ParticuleStates>
+    </ParticuleStateList>
+  </ParticleInfos>
+</ContentHolder>	

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Parameters xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PLANETOID_SIZE>15</PLANETOID_SIZE>
+  <PLANETOID_POSITION X="80" Y="45" />
+  <PLANETOID_MARGIN>0.8</PLANETOID_MARGIN>
+  <ARENA_TO_SCREEN_RATIO>12</ARENA_TO_SCREEN_RATIO>
+  <DEGREES_PER_SECOND>180</DEGREES_PER_SECOND>
+  <IMPULSE_PER_SECOND>27</IMPULSE_PER_SECOND>
+  <ENERGY_MAX>100</ENERGY_MAX>
+  <LIFE_MAX>100</LIFE_MAX>
+  <LIFE_PER_SECOND_MOON_COLLISION>-50</LIFE_PER_SECOND_MOON_COLLISION>
+  <LIFE_PER_BULLET>-3</LIFE_PER_BULLET>
+  <LIFE_PER_BULLETHEAT>-15</LIFE_PER_BULLETHEAT>
+  <SCREEN_SIZE X="1920" Y="1080" />
+  <BULLET_LIFESPAN>1.66</BULLET_LIFESPAN>
+  <BULLET_VELOCITY>50</BULLET_VELOCITY>
+  <BONUS_LIFESPAN>8</BONUS_LIFESPAN>
+  <BONUS_SIZE X="2.5" Y="2.5" />
+  <BONUS_MAX_ROTATION_DELTA>360</BONUS_MAX_ROTATION_DELTA>
+  <BONUS_MAX_VELOCITY>20</BONUS_MAX_VELOCITY>
+  <BONUS_FREQUENCY>2</BONUS_FREQUENCY>
+  <ARENA_SIZE X="160" Y="90" />
+  <SHIP_SIZE X="5.5" Y="5.5" />
+  <BULLET_SIZE X="1" Y="1.33" />
+  <STATUS_BAR_SIZE>250</STATUS_BAR_SIZE>
+  <LIFE_BAR_POSITIONS>
+    <Vector2 X="20" Y="20" />
+    <Vector2 X="1626" Y="1005" />
+  </LIFE_BAR_POSITIONS>
+  <ENERGY_BAR_POSITIONS>
+    <Vector2 X="20" Y="50" />
+    <Vector2 X="1626" Y="1035" />
+  </ENERGY_BAR_POSITIONS>
+  <AMMOHUD_POSITIONS>
+    <Vector2 X="314" Y="23" />
+    <Vector2 X="1606" Y="1007" />
+  </AMMOHUD_POSITIONS>
+  <INVERTED_BARS>
+    <boolean>false</boolean>
+    <boolean>true</boolean>
+    <boolean>false</boolean>
+    <boolean>true</boolean>
+  </INVERTED_BARS>
+  <PLAYER_NAMES>
+    <string>Louis L'Ourson</string>
+    <string>Jerhum</string>
+  </PLAYER_NAMES>
+  <movement_left>
+    <Keys>Left</Keys>
+    <Keys>J</Keys>
+  </movement_left>
+  <movement_right>
+    <Keys>Right</Keys>
+    <Keys>L</Keys>
+  </movement_right>
+  <movement_engine>
+    <Keys>Q</Keys>
+    <Keys>A</Keys>
+  </movement_engine>
+  <KEY_ACTION_MAIN>
+    <Keys>W</Keys>
+    <Keys>S</Keys>
+  </KEY_ACTION_MAIN>
+  <KEY_ACTION_SECONDARY>
+    <Keys>E</Keys>
+    <Keys>D</Keys>
+  </KEY_ACTION_SECONDARY>
+  <KEY_ACTION_CHANGE_NEGATIVE>
+    <Keys>Down</Keys>
+    <Keys>K</Keys>
+  </KEY_ACTION_CHANGE_NEGATIVE>
+  <KEY_ACTION_CHANGE_POSITIVE>
+    <Keys>Up</Keys>
+    <Keys>I</Keys>
+  </KEY_ACTION_CHANGE_POSITIVE>
+  <KEY_DEBUG>
+    <Keys>R</Keys>
+    <Keys>F</Keys>
+  </KEY_DEBUG>
+  <player_color>
+    <SDL_Color R="255" G="60" B="60" A="255" />
+    <SDL_Color R="60" G="60" B="255" A="255" />
+    <SDL_Color R="0" G="0" B="0" A="0" />
+    <SDL_Color R="0" G="0" B="0" A="0" />
+  </player_color>
+  <ENERGY_PER_SECOND_ENGINE>-11</ENERGY_PER_SECOND_ENGINE>
+  <ENERGY_PER_BULLET>-0.7</ENERGY_PER_BULLET>
+  <ENERGY_PER_TBULLET>-1.4</ENERGY_PER_TBULLET>
+  <ENERGY_PER_SECOND_REGEN>6.25</ENERGY_PER_SECOND_REGEN>
+  <ENERGY_PER_BULLETHEAT>-5</ENERGY_PER_BULLETHEAT>
+  <DEPTH_BULLET>0.4</DEPTH_BULLET>
+  <DEPTH_HUD>0.1</DEPTH_HUD>
+  <DEPTH_PLAYERSHIP>0.5</DEPTH_PLAYERSHIP>
+  <DEPTH_PLANETOID>0.2</DEPTH_PLANETOID>
+  <DEPTH_BONUS>0.4</DEPTH_BONUS>
+  <DEPTH_BACKGROUND>0</DEPTH_BACKGROUND>
+  <DEPTH_REGEN>0.6</DEPTH_REGEN>
+  <DEPTH_DEFAULT>0.4</DEPTH_DEFAULT>
+  <FONT_SCORES>kenvector</FONT_SCORES>
+  <FONT_AMMO>kenvector</FONT_AMMO>
+  <SOUND_BULLET>laser_2</SOUND_BULLET>
+  <EREGEN_TIME>8</EREGEN_TIME>
+  <EREGEN_ENERGY_PER_SECOND>15</EREGEN_ENERGY_PER_SECOND>
+  <LREGEN_TIME>8</LREGEN_TIME>
+  <LREGEN_LIFE_PER_SECOND>15</LREGEN_LIFE_PER_SECOND>
+  <BULLETHEAT_TURN_PER_SECOND>70</BULLETHEAT_TURN_PER_SECOND>
+  <BULLETHEAT_IMPULSE_PER_SECOND>4000</BULLETHEAT_IMPULSE_PER_SECOND>
+  <BULLETHEAT_LIFESPAN>15</BULLETHEAT_LIFESPAN>
+  <SIZE_DAMAGE X="1.5" Y="1.5" />
+  <SIZE_TRAIL X="2" Y="2" />
+  <SIZE_EREGEN X="0" Y="0" />
+  <SIZE_BULLETHEAT X="2.91666675" Y="2.91666675" />
+  <VELOCITY_DAMAGE>6</VELOCITY_DAMAGE>
+  <VELOCITY_REGEN>6</VELOCITY_REGEN>
+  <FREQUENCY_BULLET>0.083</FREQUENCY_BULLET>
+  <FREQUENCY_REGEN>0.5</FREQUENCY_REGEN>
+  <FREQUENCY_HEATBULLET>0.4</FREQUENCY_HEATBULLET>
+  <BonusProbabilities>
+    <BonusProbability bonusType="ENERGY" bonusFrequency="1" />
+    <BonusProbability bonusType="LIFE" bonusFrequency="1" />
+    <BonusProbability bonusType="TRIPE_BULLET" bonusFrequency="2" />
+  </BonusProbabilities>
+</Parameters>
