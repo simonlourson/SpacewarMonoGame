@@ -170,12 +170,12 @@ namespace SpacewarMonoGame
     {
       if (this.Headless)
         return;
-      this.CreateExplosion(content, position, velocity, 10, 7, 3, false);
+      this.CreateExplosion(content, position, velocity, 20, 14, 6, false);
     }
 
     public void CreateBombExplosion(ContentHolder content, Vector2 position)
     {
-      this.CreateExplosion(content, position, content.Parameters.GetItem<int>("BOMB_NB_SHRAPNEL"), this.Headless ? 0 : 7, this.Headless ? 0 : 3, true);
+      this.CreateExplosion(content, position, content.Parameters.GetItem<int>("BOMB_NB_SHRAPNEL"), this.Headless ? 0 : 14, this.Headless ? 0 : 6, true);
     }
 
     public void StartReboot(ContentHolder content)

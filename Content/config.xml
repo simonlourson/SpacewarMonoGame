@@ -104,7 +104,7 @@
       <BonusProbability bonusType="ENERGY" bonusFrequency="1" bonusNbAmmo="1" />
       <BonusProbability bonusType="LIFE" bonusFrequency="1" bonusNbAmmo="1" />
       <BonusProbability bonusType="TRIPE_BULLET" bonusFrequency="1" bonusNbAmmo="20" />
-      <BonusProbability bonusType="HEAT_SEEKING" bonusFrequency="99" bonusNbAmmo="5" />
+      <BonusProbability bonusType="HEAT_SEEKING" bonusFrequency="1" bonusNbAmmo="5" />
       <BonusProbability bonusType="BOMB" bonusFrequency="1" bonusNbAmmo="1" />
       <BonusProbability bonusType="SHIELD" bonusFrequency="1" bonusNbAmmo="1" />
       <BonusProbability bonusType="PLASMA" bonusFrequency="1" bonusNbAmmo="6" />
@@ -114,49 +114,49 @@
   <item key="KEY_MOVEMENT_LEFT">
     <anyType xsi:type="ArrayOfKeys">
       <Keys>Left</Keys>
-      <Keys>D</Keys>
+      <Keys>Q</Keys>
     </anyType>
   </item>
   <item key="KEY_MOVEMENT_RIGHT">
     <anyType xsi:type="ArrayOfKeys">
       <Keys>Right</Keys>
-      <Keys>G</Keys>
+      <Keys>D</Keys>
     </anyType>
   </item>
   <item key="KEY_MOVEMENT_ENGINE">
     <anyType xsi:type="ArrayOfKeys">
-      <Keys>Up</Keys>
+      <Keys>Enter</Keys>
       <Keys>R</Keys>
     </anyType>
   </item>
   <item key="KEY_ACTION_MAIN">
     <anyType xsi:type="ArrayOfKeys">
-      <Keys>J</Keys>
-      <Keys>U</Keys>
+      <Keys>LeftControl</Keys>
+      <Keys>T</Keys>
     </anyType>
   </item>
   <item key="KEY_ACTION_SECONDARY">
     <anyType xsi:type="ArrayOfKeys">
-      <Keys>K</Keys>
-      <Keys>I</Keys>
+      <Keys>Space</Keys>
+      <Keys>Y</Keys>
     </anyType>
   </item>
   <item key="KEY_ACTION_CHANGE_POSITIVE">
     <anyType xsi:type="ArrayOfKeys">
-      <Keys>L</Keys>
+      <Keys>LeftAlt</Keys>
       <Keys>F</Keys>
     </anyType>
   </item>
   <item key="KEY_ACTION_CHANGE_NEGATIVE">
     <anyType xsi:type="ArrayOfKeys">
-      <Keys>Down</Keys>
-      <Keys>V</Keys>
+      <Keys>LeftShift</Keys>
+      <Keys>G</Keys>
     </anyType>
   </item>
   <item key="KEY_DEBUG">
     <anyType xsi:type="ArrayOfKeys">
-      <Keys>P</Keys>
-      <Keys>T</Keys>
+      <Keys>N</Keys>
+      <Keys>B</Keys>
     </anyType>
   </item>
 
@@ -180,13 +180,13 @@
     <anyType xsi:type="xsd:float">-5</anyType>
   </item>
   <item key="ENERGY_PER_BOMB">
-    <anyType xsi:type="xsd:float">20</anyType>
+    <anyType xsi:type="xsd:float">-20</anyType>
   </item>
   <item key="ENERGY_PER_PLASMA">
-    <anyType xsi:type="xsd:float">10</anyType>
+    <anyType xsi:type="xsd:float">-10</anyType>
   </item>
   <item key="ENERGY_PER_SHIELD">
-    <anyType xsi:type="xsd:float">30</anyType>
+    <anyType xsi:type="xsd:float">-30</anyType>
   </item>
   <item key="DEPTH_BULLET">
     <anyType xsi:type="xsd:float">0.4</anyType>
@@ -252,7 +252,7 @@
     <anyType xsi:type="xsd:float">0.5</anyType>
   </item>
   <item key="BOMB_SHRAPNEL_DAMAGE">
-    <anyType xsi:type="xsd:float">-30</anyType>
+    <anyType xsi:type="xsd:float">-200</anyType>
   </item>
   <item key="BOMB_SHRAPNEL_GRACE_PERIOD">
     <anyType xsi:type="xsd:float">0.1</anyType>
@@ -314,7 +314,7 @@
     <anyType xsi:type="xsd:int">100</anyType>
   </item>
   <item key="BOMB_NB_SHRAPNEL">
-    <anyType xsi:type="xsd:int">50</anyType>
+    <anyType xsi:type="xsd:int">70</anyType>
   </item>
 
 
@@ -361,6 +361,9 @@
     </anyType>
   </item>
   <item key="RANDOM_STARTING_POSITIONS">
+    <anyType xsi:type="xsd:boolean">false</anyType>
+  </item>
+  <item key="MAX_BONUS_START">
     <anyType xsi:type="xsd:boolean">false</anyType>
   </item>
 

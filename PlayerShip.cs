@@ -112,9 +112,9 @@ namespace SpacewarMonoGame
       this.lregenRemaining = 0;
       this.ammoHud.Reset();
 
-      foreach (BonusType bonusType in Enum.GetValues(typeof(BonusType))) {
-        this.ammoHud.ChangeAmmo(bonusType, 99);
-      }
+      if (content.Parameters.GetItem<bool>("MAX_BONUS_START"))
+        foreach (BonusType bonusType in Enum.GetValues(typeof(BonusType)))
+          this.ammoHud.ChangeAmmo(bonusType, 99);
     }
 
     private void CreateBody(ContentHolder content, World world)
@@ -157,7 +157,7 @@ namespace SpacewarMonoGame
 
     public bool TakeBulletHeat(ContentHolder content, BulletHeatSeeking bullet)
     {
-      if (bullet.playerIndex == this.playerIndex)
+      if (bullet.playerIndex == this.playerIndex && bullet.currentTime < 1)
         return false;
       if ((double) this.shieldRemaining > 0.0)
       {

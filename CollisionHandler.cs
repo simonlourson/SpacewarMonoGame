@@ -157,7 +157,7 @@ namespace SpacewarMonoGame
     public bool PlayerShipWithPlasma(object _playerShip, object _plasma)
     {
       PlasmaBall plasma = _plasma as PlasmaBall;
-      return (_playerShip as PlayerShip).TakePlasma(this.content, plasma);
+      return false;
     }
 
     public bool bombBody_OnCollision(Fixture fixtureA, Fixture fixtureB, Contact contact)
@@ -182,16 +182,10 @@ namespace SpacewarMonoGame
       PlasmaBall userData5 = fixtureB.UserData as PlasmaBall;
       if (userData1 != null && userData5 != null)
         return false;
-      string userData6 = fixtureB.UserData as string;
-      if (userData1 != null && userData6 != null)
-      {
-        if (userData6 == "planetoid")
-        {
-          userData1.explodeNext = true;
-          return false;
-        }
-        if (userData6 == "barrier")
-          return false;
+      Planetoid planetoid = fixtureB.UserData as Planetoid;
+      if (planetoid != null && userData1 != null) {
+        userData1.explodeNext = true;
+        return false;
       }
       return true;
     }
@@ -210,19 +204,13 @@ namespace SpacewarMonoGame
       PlasmaBall userData4 = fixtureB.UserData as PlasmaBall;
       if (userData1 != null && userData4 != null)
         return false;
-      string userData5 = fixtureB.UserData as string;
-      if (userData1 != null && userData5 != null)
-      {
-        if (userData5 == "planetoid")
-        {
-          this.arena.CreateDamage(this.content, userData1.position);
-          userData1.IsDead = true;
-          return false;
-        }
-        if (userData5 == "barrier")
-          return false;
+      Planetoid planetoid = fixtureB.UserData as Planetoid;
+      if (planetoid != null && userData1 != null) {
+        this.arena.CreateDamage(this.content, userData1.position);
+        userData1.IsDead = true;
+        return false;
       }
-      return true;
+      return false;
     }
 
     public bool bonusBody_OnCollision(Fixture fixtureA, Fixture fixtureB, Contact contact)
@@ -248,12 +236,7 @@ namespace SpacewarMonoGame
 
     public bool plasmaBody_OnCollision(Fixture fixtureA, Fixture fixtureB, Contact contact)
     {
-      PlasmaBall userData1 = fixtureA.UserData as PlasmaBall;
-      PlasmaBall userData2 = fixtureB.UserData as PlasmaBall;
-      if (userData1 != null && userData2 != null)
-        return false;
-      string userData3 = fixtureB.UserData as string;
-      return userData1 == null || userData3 == null || !(userData3 == "planetoid") && !(userData3 == "barrier");
+      return false;
     }
 
     public bool heatbulletBody_OnCollision(Fixture fixtureA, Fixture fixtureB, Contact contact)

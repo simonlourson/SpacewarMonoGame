@@ -18,7 +18,6 @@ public class Game1 : Game
     {
         _graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
-        IsMouseVisible = true;
     }
 
     protected override void Initialize()
@@ -26,6 +25,7 @@ public class Game1 : Game
       this._parameters = SpacewarMonoGameParameters.FromFile(Environment.CurrentDirectory + "/Content/config.xml");
       this._contentHolder = ContentHolder.FromFile(Environment.CurrentDirectory + "/Content/content.xml");
       this._contentHolder.Parameters = (Parameters) this._parameters;
+      IsMouseVisible = false;
       string str1 = "size of window: ";
       Rectangle clientBounds = this.Window.ClientBounds;
       string str2 = clientBounds.Width.ToString();
